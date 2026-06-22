@@ -127,7 +127,7 @@ export default function Home() {
 
         {/* Header */}
         <div style={{ background: '#005F9E', padding: '1rem 1.5rem', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-          <img src="/escudo.png" alt="Villarreal CF" style={{ width: 40, height: 40, objectFit: 'contain', filter: 'drop-shadow(0 0 2px white) drop-shadow(0 0 2px white)' }} />
+          <img src="/escudo.png" alt="Villarreal CF" style={{ width: 40, height: 40, objectFit: 'contain', filter: 'drop-shadow(1px 0 0 white) drop-shadow(-1px 0 0 white) drop-shadow(0 1px 0 white) drop-shadow(0 -1px 0 white)' }} />
           <div>
             <div style={{ color: 'white', fontWeight: '700', fontSize: '1rem' }}>Villarreal CF</div>
             <div style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.8rem' }}>Campaña de abonos 2026/27</div>
