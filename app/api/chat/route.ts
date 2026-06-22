@@ -61,7 +61,7 @@ FLUJO PARA RENOVACIÓN:
 INSTRUCCIONES ESTRICTAS:
 - Solo responde sobre la campaña de abonos (renovaciones, cambios de asiento, altas nuevas, situación del asiento).
 - No inventes información. Solo usa los datos proporcionados.
-- Si preguntan algo fuera de la campaña, redirige amablemente al teléfono de atención al abonado o a la web oficial.
+- Si preguntan algo fuera de la campaña, redirige amablemente a los medios oficiales del club. villarrealcf.es y redes sociales oficiales.
 - Respuestas cortas y directas.`
 
 export async function POST(req: Request) {
@@ -79,7 +79,7 @@ export async function POST(req: Request) {
     if (error || !data) {
       contextoAbonado = `\n\nDATO VERIFICADO: El número de abonado ${numeroAbonado} no existe en el sistema. Informa al usuario de que verifique su número.`
     } else if (!data.tipo_problema) {
-      contextoAbonado = `\n\nDATO VERIFICADO: El abonado ${numeroAbonado} NO está afectado por las obras. Su asiento se mantiene exactamente igual para la próxima temporada. Puede renovar con normalidad.`
+      contextoAbonado = `\n\nDATO VERIFICADO: El abonado ${numeroAbonado} NO está afectado por las obras. Su asiento se mantiene exactamente igual para la próxima temporada. Puede renovar con normalidad en los plazos indicados. Mantente informado por los medios oficiales, página villarrealcf.es y redes sociales oficiales.`
     } else {
       contextoAbonado = `\n\nDATO VERIFICADO: El abonado ${numeroAbonado} tiene el PROBLEMA TIPO ${data.tipo_problema}. Situación: ${SOLUCIONES[data.tipo_problema]}`
     }
