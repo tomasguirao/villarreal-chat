@@ -10,7 +10,7 @@ interface Message {
 type Phase = 'chat' | 'consent_pending' | 'identified'
 
 const TEXTO_CONSENTIMIENTO =
-  'Autorizo al Villarreal CF a consultar mis datos de abonado (número de abonado y situación de asiento) con el fin exclusivo de informarme sobre la campaña de abonos 2025/26, conforme al Reglamento (UE) 2016/679 (RGPD).'
+  'Autorizo al Villarreal CF a consultar mis datos de abonado (número de abonado y situación de asiento) con el fin exclusivo de informarme sobre la campaña de abonos 2026/27, conforme al Reglamento (UE) 2016/679 (RGPD).'
 
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([
