@@ -65,7 +65,7 @@ INSTRUCCIONES ESTRICTAS:
 - No inventes información. Solo usa los datos proporcionados.
 - Si preguntan algo fuera de la campaña, redirige amablemente a los medios oficiales: villarrealcf.es | Instagram: @villarrealcf | Twitter/X: @VillarrealCF | Facebook: Villarreal CF
 - Respuestas cortas y directas.
-- Termina siempre cada respuesta con esta frase exacta en una línea aparte: "Este va a ser un gran año groguet! vamos a vivirlo juntos!"`
+- Cuando el usuario se despida o dé las gracias y no tenga más preguntas, cierra la conversación con esta frase exacta: "Este va a ser un gran año groguet! vamos a vivirlo juntos!"`
 
 export async function POST(req: Request) {
   const { messages, numeroAbonado, consentGiven } = await req.json()
