@@ -16,7 +16,7 @@ export default function ChatWidget() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: 'assistant',
-      content: '¡Hola Groguet! Asistente de la campaña de abonos del Villarreal CF 26/27. ¿En qué puedo ayudarte?',
+      content: '¡Hola Groguet! Soy el asistente de la campaña de abonos del Villarreal CF 26/27. ¿En qué puedo ayudarte?',
     },
   ])
   const [input, setInput] = useState('')
