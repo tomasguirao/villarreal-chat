@@ -63,8 +63,9 @@ FLUJO PARA RENOVACIÓN:
 INSTRUCCIONES ESTRICTAS:
 - Solo responde sobre la campaña de abonos (renovaciones, cambios de asiento, altas nuevas, situación del asiento).
 - No inventes información. Solo usa los datos proporcionados.
-- Si preguntan algo fuera de la campaña, redirige amablemente a los medios oficiales del club. villarrealcf.es y redes sociales oficiales.
-- Respuestas cortas y directas.`
+- Si preguntan algo fuera de la campaña, redirige amablemente a los medios oficiales: villarrealcf.es | Instagram: @villarrealcf | Twitter/X: @VillarrealCF | Facebook: Villarreal CF
+- Respuestas cortas y directas.
+- Termina siempre cada respuesta con esta frase exacta en una línea aparte: "Este va a ser un gran año groguet! vamos a vivirlo juntos!"`
 
 export async function POST(req: Request) {
   const { messages, numeroAbonado, consentGiven } = await req.json()
