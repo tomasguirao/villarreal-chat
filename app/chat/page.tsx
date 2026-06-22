@@ -129,7 +129,7 @@ export default function ChatWidget() {
 
       {/* Header */}
       <div style={{ background: '#005F9E', padding: '0.875rem 1.25rem', display: 'flex', alignItems: 'center', gap: '0.75rem', flexShrink: 0 }}>
-        <img src="/escudo.png" alt="Villarreal CF" style={{ width: 36, height: 36, objectFit: 'contain' }} />
+        <img src="/escudo.png" alt="Villarreal CF" style={{ width: 36, height: 36, objectFit: 'contain', filter: 'drop-shadow(0 0 2px white) drop-shadow(0 0 2px white)' }} />
         <div>
           <div style={{ color: 'white', fontWeight: '700', fontSize: '0.95rem' }}>Villarreal CF</div>
           <div style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.75rem' }}>Campaña de abonos 2026/27</div>
