@@ -16,7 +16,7 @@ export default function Home() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: 'assistant',
-      content: '¡Hola! Soy el asistente de la campaña de abonos del Villarreal CF. Puedo informarte sobre fechas de renovación, cambio de asiento y altas nuevas. Si quieres saber si tu asiento está afectado por las obras, también puedo comprobarlo. ¿En qué puedo ayudarte?',
+      content: 'Asistente de la campaña de abonos del Villarreal CF 26/27. ¿En qué puedo ayudarte?',
     },
   ])
   const [input, setInput] = useState('')
@@ -235,3 +235,4 @@ export default function Home() {
     </main>
   )
 }
+
