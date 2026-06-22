@@ -130,7 +130,7 @@ export default function Home() {
           <img src="/escudo.png" alt="Villarreal CF" style={{ width: 40, height: 40, objectFit: 'contain' }} />
           <div>
             <div style={{ color: 'white', fontWeight: '700', fontSize: '1rem' }}>Villarreal CF</div>
-            <div style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.8rem' }}>Campaña de abonos 2025/26</div>
+            <div style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.8rem' }}>Campaña de abonos 2026/27</div>
           </div>
           {phase === 'identified' && (
             <div style={{ marginLeft: 'auto', background: 'rgba(255,255,255,0.15)', borderRadius: '20px', padding: '0.25rem 0.875rem', color: 'white', fontSize: '0.8rem' }}>

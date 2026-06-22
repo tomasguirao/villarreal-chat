@@ -132,7 +132,7 @@ export default function ChatWidget() {
         <img src="/escudo.png" alt="Villarreal CF" style={{ width: 36, height: 36, objectFit: 'contain' }} />
         <div>
           <div style={{ color: 'white', fontWeight: '700', fontSize: '0.95rem' }}>Villarreal CF</div>
-          <div style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.75rem' }}>Campaña de abonos 2025/26</div>
+          <div style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.75rem' }}>Campaña de abonos 2026/27</div>
         </div>
         {phase === 'identified' && (
           <div style={{ marginLeft: 'auto', background: 'rgba(255,255,255,0.15)', borderRadius: '20px', padding: '0.25rem 0.75rem', color: 'white', fontSize: '0.75rem' }}>
