@@ -127,7 +127,7 @@ export default function Home() {
 
         {/* Header */}
         <div style={{ background: '#005F9E', padding: '1rem 1.5rem', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-          <div style={{ width: 40, height: 40, background: '#FFD700', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', color: '#005F9E', fontSize: '1.1rem' }}>VCF</div>
+          <img src="/escudo.png" alt="Villarreal CF" style={{ width: 40, height: 40, objectFit: 'contain' }} />
           <div>
             <div style={{ color: 'white', fontWeight: '700', fontSize: '1rem' }}>Villarreal CF</div>
             <div style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.8rem' }}>Campaña de abonos 2025/26</div>
